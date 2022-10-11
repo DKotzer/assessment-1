@@ -1,0 +1,60 @@
+body {
+  text-align: center;
+
+  display: flex; /* defaults to row layout */
+  justify-content: center; /* centers items horizontally in row layout */
+  align-items: center; /* centers vertically in row layout */
+  font-size: 50px;
+  /* flex-direction: column; will set layout to column instead of row */
+}
+
+input {
+  text-align: center;
+  font-size: 50px;
+  width: 55px;
+  border: none;
+}
+div {
+  margin: 20px;
+}
+.plus {
+  padding: 20px;
+  background: rgba(128, 128, 128, 0.527);
+  border-radius: 15px;
+  color: white;
+  width: 30px;
+}
+
+.minus {
+  padding: 20px;
+  background: rgba(128, 128, 128, 0.527);
+  border-radius: 15px;
+  color: white;
+  width: 30px;
+}
+
+.minus:hover {
+  color: grey;
+  background: white;
+  border: 1px solid rgba(128, 128, 128, 0.527);
+}
+
+.plus:hover {
+  color: grey;
+  background: white;
+  border: 1px solid rgba(128, 128, 128, 0.527);
+}
+.row2 {
+  display: flex;
+  flex-direction: row;
+}
+
+.red {
+  color: red;
+}
+.green {
+  color: green;
+}
+.purple {
+  color: purple;
+}
